@@ -1,38 +1,67 @@
+@font-face {
+  font-family: 'crayons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/crayons.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'aller';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/aller_bd.ttf'); /* IE9 Compat Modes */
+}
+
+
+body{
+  background-color: #000 !important;
+  color:white !important;  
+  font-family: 'crayons' !important;
+  background-color: #000;
+  background-image: url('./assets/side-a.svg'), url('./assets/side-b.svg');
+  background-repeat: repeat-y, repeat-y;
+  background-position: left, right;
+  background-origin: padding-box, padding-box;
+  background-size: 10% auto, 10% auto;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mrexpresslogo{
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-container{
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu-title{
+  color: black;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-family: "aller" !important;
+  padding: 10px 70px;
+  background: url(./assets/title-background.svg) no-repeat;
+  background-size: 120%;
+  background-position: center;
 }
 
-.App-link {
-  color: #61dafb;
+.item-desc p{
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-price{
+  line-height: 1.1rem;
+  color: #bbb !important;
+}
+
+.item-name{
+  margin-top: 10px;
+  font-size: 1.5em;
 }

@@ -1,0 +1,25 @@
+[
+    {
+        "category": "Asados",
+        "menu": [
+            {"name": "New York Steak",      "price": 180, "image": "" },
+            {"name": "Ribeye",              "price": 200, "image": ""  },
+            {"name": "Puyaso",              "price": 160, "image": ""  },
+            {"name": "Filete de pollo",     "price": 160, "image": ""  }
+        ]
+    },
+    {
+        "category": "Cerdo",
+        "menu": [
+            {"name": "Costilla salsa BBQ",   "price": 150, "image": "" },
+            {"name": "Chuleta de Cerdo",     "price": 150, "image": ""  }
+        ]
+    },
+    {
+        "category": "Pastas",
+        "menu": [
+            {"name": "Pasta de camaron",   "price": 150, "image": "" },
+            {"name": "Pasta de pollo",     "price": 120, "image": ""  }
+        ]
+    }
+]
