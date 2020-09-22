@@ -2,24 +2,25 @@
     {
         "category": "Asados",
         "menu": [
-            {"name": "New York Steak",      "price": 180, "image": "" },
-            {"name": "Ribeye",              "price": 200, "image": ""  },
-            {"name": "Puyaso",              "price": 160, "image": ""  },
-            {"name": "Filete de pollo",     "price": 160, "image": ""  }
+            {"name": "New York Steak",      "price": 180, "image": "", "desc": "Un buen corte de carne es una delicia a tu paladar, si quieres imitar en casa la receta de un restaurante acá te damos una ayuda " },
+            {"name": "Ribeye",              "price": 200, "image": "", "desc": "lorem"  },
+            {"name": "Puyaso",              "price": 160, "image": "", "desc": "Ingredientes: \n  Vino tinto para cocinar\n Zanahoria\n Sal Fina\n Puyazo\n Pipián\n Perejil\n Papa rosada\n Hojas de laurel (secas)\n Cebollín\n Ayote tierno\n Aceite de oliva extravirgen\n Ajo en cabeza\n Chayote"},
+            {"name": "Filete de pollo",     "price": 160, "image": "", "desc": "lorem"  }
         ]
     },
     {
         "category": "Cerdo",
         "menu": [
-            {"name": "Costilla salsa BBQ",   "price": 150, "image": "" },
-            {"name": "Chuleta de Cerdo",     "price": 150, "image": ""  }
+            {"name": "Costilla salsa BBQ",   "price": 150, "image": "", "desc": "lorm" },
+            {"name": "Chuleta de Cerdo",     "price": 150, "image": "", "desc": "lorm"  }
         ]
     },
     {
         "category": "Pastas",
         "menu": [
-            {"name": "Pasta de camaron",   "price": 150, "image": "" },
-            {"name": "Pasta de pollo",     "price": 120, "image": ""  }
+            {"name": "Pasta de camaron",   "price": 150, "image": "", "desc": "loremm" },
+            {"name": "Pasta de pollo",     "price": 120, "image": "", "desc": "loremm"  }
         ]
     }
 ]
+
